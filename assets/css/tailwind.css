@@ -1,0 +1,32 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: "Luckiest Guy";
+    src: url("~/static/LuckiestGuy.ttf");
+}
+.bg-site {
+    background-color: #f0a70b;
+}
+.btn-primary{
+    color: #F0A70B;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 3px solid #F0A70B;
+    background-color: transparent;
+    border-radius: 1em;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline;
+}
+
+.bg-dark-primary{
+    background-color: #171717;
+}
+p{
+    color: #fff;
+    text-align: justify;
+}

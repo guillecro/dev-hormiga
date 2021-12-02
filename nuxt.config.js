@@ -2,13 +2,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: 'https://devhormiga.github.io/dev-hormiga/'
+    base: '/dev-hormiga/',
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'dev-hormiga',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'es'
     },
     meta: [
       { charset: 'utf-8' },

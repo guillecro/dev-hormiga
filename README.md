@@ -14,7 +14,10 @@ $ npm run build
 $ npm run start
 
 # generate static project
+git commit and push
+
 $ npm run generate
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
