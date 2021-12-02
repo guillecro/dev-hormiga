@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fdev-hormiga\u002F_nuxt\u002Fstatic\u002F1638472751",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"\u002Fdev-hormiga\u002F",assetsPath:"\u002Fdev-hormiga\u002F_nuxt\u002F",cdnURL:a}}}}(null));
