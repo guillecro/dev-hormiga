@@ -74,7 +74,7 @@ export default {
         delay: 3000,
         translateY: 375,
         duration: 3300,
-        opacioty: 100,
+        opacity: 1, // Opacity values goes from 0 to 1
       },
       scale: [
         { value: 0.1, easing: "easeOutSine", duration: 500 },
