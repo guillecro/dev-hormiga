@@ -53,6 +53,10 @@
         <a href="https://www.linkedin.com/in/diego-v-0070161a4/" target="_blank"
           ><i id="ld" class="fab fa-linkedin"></i
         ></a>
+          <!-- exammple -->
+      <button @click="animeEl" style="color:white; opacity:1">Click me</button>
+      <p class="p1" style="color:white; opacity:1">Nuxt Animejs Module</p>
+      <!-- exammple -->
       </div>
     </div>
   </div>
@@ -82,7 +86,18 @@ export default {
       ],
     };
   },
-  methods: {},
+  methods: {
+    animeEl: function(){
+      this.$anime({
+          targets: '.p1',
+          translateX: 250,
+          rotate: '1turn',
+          backgroundColor: '#2A2A2A',
+          duration: 1500
+        })
+    }
+
+  },
 };
 </script>
 <style scoped>
